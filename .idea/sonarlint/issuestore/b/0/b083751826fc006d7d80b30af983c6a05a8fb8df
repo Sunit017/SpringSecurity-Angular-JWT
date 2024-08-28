@@ -1,6 +1,6 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ•¼ôýÿÿÿÿ8¢Ž¦œ™2J$3a6264f2-72a7-466f-afc5-0b8eda1ff54c
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ•¼ôýÿÿÿÿ8¢Ž¦œ™2J$c6270f4b-395e-4141-84b2-9f96d77bed81
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8¨Ž¦œ™2J$eaab559f-e812-4d4e-b753-d6dcfa516587
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8¨Ž¦œ™2J$6ecbf43b-c5e8-47f8-bf22-deec94c22795
 n
-java:S1452"&Remove usage of generic wildcard type.(õ÷Æìþÿÿÿÿ8®Ž¦œ™2J$aba4c7f2-e0b7-49f0-8365-16f9008359c9
+java:S1452"&Remove usage of generic wildcard type.(õ÷Æìþÿÿÿÿ8®Ž¦œ™2J$722b8014-61da-4690-a629-84c58809a479

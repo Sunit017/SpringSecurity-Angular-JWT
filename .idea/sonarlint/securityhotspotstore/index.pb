@@ -17,3 +17,5 @@ I
 JwtSpringSecurity/pom.xml,6\9\69393f5c212749cf95d5a10dc007c1fab0b63242
 ”
 dJwtSpringSecurity/src/main/java/com/practice/JwtSpringSecurity/configurations/ModelMapperConfig.java,0\b\0b7d564047b65d375f2d08e761e31df0de305457
+›
+kJwtSpringSecurity/src/main/java/com/practice/JwtSpringSecurity/configurations/WebSecurityConfiguration.java,c\f\cf8d573e497792d2d34539adaff0086490354517
