@@ -1,0 +1,22 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÈßÂ—8ëõ¯å›2J$8e99b2b3-82f5-420b-8bd8-596404a64dda
+R
+java:S1874%"5Remove this use of "setSigningKey"; it is deprecated.(Ô™ð‡8±ÑÂå›2
+X
+java:S1874'"6Remove this use of "parseClaimsJws"; it is deprecated.(ëÙ–ºýÿÿÿÿ8²ÑÂå›2
+L
+java:S1874("/Remove this use of "getBody"; it is deprecated.(ÊÄ¿Ì8²ÑÂå›2
+y
+java:S1874<"1Remove this use of "setClaims"; it is deprecated.(æõíûúÿÿÿÿ8¸ö¯å›2J$bc86ab40-c5ca-4a8a-81ff-ce81a5a5ef11
+t
+java:S1874="2Remove this use of "setSubject"; it is deprecated.(ï³Ðv8¹ö¯å›2J$0c9bb59a-dd59-412c-8469-9e43c450ebe0
+v
+java:S1874>"3Remove this use of "setIssuedAt"; it is deprecated.(øÔ÷ò8¹ö¯å›2J$e37de3f6-7961-4e66-9295-79b2e8d5be05
+w
+java:S1874?"5Remove this use of "setExpiration"; it is deprecated.(²þÔ_8ºö¯å›2J$70182f48-5143-44dc-90d2-072edb2a8adf
+s
+java:S1874@"0Remove this use of "signWith"; it is deprecated.(óÜ˜ž8»ö¯å›2J$dd0c86d2-10a9-44d4-ba6a-fc0d4fcff5c4
+}
+java:S1874@":Remove this use of "SignatureAlgorithm"; it is deprecated.(óÜ˜ž8¼ö¯å›2J$1c8c7bec-5e59-4143-bd4b-f42a20349872
+}
+java:S1874@":Remove this use of "SignatureAlgorithm"; it is deprecated.(óÜ˜ž8¼ö¯å›2J$a13910db-e700-45c6-8f4a-41945ddc0376
