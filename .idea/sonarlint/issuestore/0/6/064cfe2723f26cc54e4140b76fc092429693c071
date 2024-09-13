@@ -1,22 +1,22 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÈßÂ—8ëõ¯å›2J$8e99b2b3-82f5-420b-8bd8-596404a64dda
-R
-java:S1874%"5Remove this use of "setSigningKey"; it is deprecated.(Ô™ð‡8±ÑÂå›2
-X
-java:S1874'"6Remove this use of "parseClaimsJws"; it is deprecated.(ëÙ–ºýÿÿÿÿ8²ÑÂå›2
-L
-java:S1874("/Remove this use of "getBody"; it is deprecated.(ÊÄ¿Ì8²ÑÂå›2
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÈßÂ—8ëõ¯å›2J$94435a70-24c1-4ba1-b64c-679cbd824c9b
+x
+java:S1874%"5Remove this use of "setSigningKey"; it is deprecated.(Ô™ð‡8±ÑÂå›2J$315df828-e75b-4ba4-a8e8-4c0f7bbdd940
+~
+java:S1874'"6Remove this use of "parseClaimsJws"; it is deprecated.(ëÙ–ºýÿÿÿÿ8²ÑÂå›2J$413df9ad-da82-47cd-ba26-60c48e6b2b4c
+r
+java:S1874("/Remove this use of "getBody"; it is deprecated.(ÊÄ¿Ì8²ÑÂå›2J$ac6876a4-69a2-4e07-8e89-70110f5f3853
 y
-java:S1874<"1Remove this use of "setClaims"; it is deprecated.(æõíûúÿÿÿÿ8¸ö¯å›2J$bc86ab40-c5ca-4a8a-81ff-ce81a5a5ef11
+java:S1874<"1Remove this use of "setClaims"; it is deprecated.(æõíûúÿÿÿÿ8¸ö¯å›2J$51344d6c-c420-432b-a0e0-4b6f7a7b2301
 t
-java:S1874="2Remove this use of "setSubject"; it is deprecated.(ï³Ðv8¹ö¯å›2J$0c9bb59a-dd59-412c-8469-9e43c450ebe0
+java:S1874="2Remove this use of "setSubject"; it is deprecated.(ï³Ðv8¹ö¯å›2J$a3cdf129-b68e-400b-a6ef-64e37f8f9a40
 v
-java:S1874>"3Remove this use of "setIssuedAt"; it is deprecated.(øÔ÷ò8¹ö¯å›2J$e37de3f6-7961-4e66-9295-79b2e8d5be05
+java:S1874>"3Remove this use of "setIssuedAt"; it is deprecated.(øÔ÷ò8¹ö¯å›2J$85bac904-8b50-4297-be70-9f9f8ae3a093
 w
-java:S1874?"5Remove this use of "setExpiration"; it is deprecated.(²þÔ_8ºö¯å›2J$70182f48-5143-44dc-90d2-072edb2a8adf
+java:S1874?"5Remove this use of "setExpiration"; it is deprecated.(²þÔ_8ºö¯å›2J$6b06811e-74cf-4e9f-9329-aa8fd9d16842
 s
-java:S1874@"0Remove this use of "signWith"; it is deprecated.(óÜ˜ž8»ö¯å›2J$dd0c86d2-10a9-44d4-ba6a-fc0d4fcff5c4
+java:S1874@"0Remove this use of "signWith"; it is deprecated.(óÜ˜ž8»ö¯å›2J$0f6bc853-7b7d-40c8-a203-49b9571aacb7
 }
-java:S1874@":Remove this use of "SignatureAlgorithm"; it is deprecated.(óÜ˜ž8¼ö¯å›2J$1c8c7bec-5e59-4143-bd4b-f42a20349872
+java:S1874@":Remove this use of "SignatureAlgorithm"; it is deprecated.(óÜ˜ž8¼ö¯å›2J$fd7046c2-6744-4b96-926b-1c081e6df834
 }
-java:S1874@":Remove this use of "SignatureAlgorithm"; it is deprecated.(óÜ˜ž8¼ö¯å›2J$a13910db-e700-45c6-8f4a-41945ddc0376
+java:S1874@":Remove this use of "SignatureAlgorithm"; it is deprecated.(óÜ˜ž8¼ö¯å›2J$c8912713-bd2c-4379-9e60-8d6f42a5f1b0

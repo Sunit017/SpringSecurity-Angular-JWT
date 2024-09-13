@@ -1,2 +1,6 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€Ö‚Êùÿÿÿÿ8¨„ç”›2J$bc17fefc-edf8-4f59-8ae8-3ffa5f4997a3
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€Ö‚Êùÿÿÿÿ8À‹¼Öž2
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8È‹¼Öž2
+|
+java:S3305"ZInject this field value directly into "securityFilterChain", the only method that uses it.(¹«›½ÿÿÿÿÿ8Ë‹¼Öž2

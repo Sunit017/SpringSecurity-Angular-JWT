@@ -12,7 +12,7 @@ public class GlobalException {
 @ExceptionHandler(BadCredentialsException.class)
 public ResponseEntity<Object> handleBadCredentialException(BadCredentialsException ex)
 {
-   ErrorMessage errorMessage=new ErrorMessage("Invalid UserName and Password", HttpStatus.UNAUTHORIZED);
+   ErrorMessage errorMessage=new ErrorMessage(ex.getMessage(), HttpStatus.UNAUTHORIZED);
    return new ResponseEntity<>(errorMessage,HttpStatus.UNAUTHORIZED);
 }
 
