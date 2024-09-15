@@ -22,6 +22,7 @@ public class WebSecurityConfiguration {
 
     @Autowired
     private JwtRequestFilter jwtRequestFilter;
+
     @Bean
     public PasswordEncoder passwordEncoder()
     {
