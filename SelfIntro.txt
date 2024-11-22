@@ -1,0 +1,144 @@
+
+
+Hello , I am Sunit Kumar Pattnaik , I am from Jajpur Odisha , Currenty living in Begaluru and i am java full stack developer with 3 years of experince . i have worked extensive
+language and technology like java, springboot , microservices,sql, angular and springsecurity . i started my career in telecom domain at tech mahindra ,
+working for telefonica germany , where i have gained solid experincein building and maintaining scalable applications.currently i am working with maveric systems in 
+banking domain for UNO bank and also worked for CITI bank , where i focus on developing secure and robust systems using microservices architecture .
+ and i am self motivated guy with positive attitude towards my career and my life also .
+ 
+ 
+ In my projects, I focus on delivering solutions that enhance customer experiences and streamline business processes. For example, I developed a portal for relationship managers, 
+ enabling efficient session management, which directly improved the customer engagement process
+ 
+ "I’m passionate about solving complex problems and building scalable applications that drive business value. My goal is to continue growing as a full stack developer and contribute 
+ to impactful projects."
+ 
+ "I’m excited to apply my skills and experience to new challenges and collaborate with teams to create innovative solutions."
+ 
+
+UNO Bank Project -
+----------------
+Here i invloved developing the CRM application and one module called customer 360 .which provides a comprehensive view of customer interaction , transcations and 
+profiles . My role involves building secure ,scalable microservices to ensure seamless data integration and a unified customer experience across different platforms . this project 
+helps reationship manager and the bank deliver personalized services to customers, enhancing client satisfaction and operational efficiency .
+ 
+ 
+ Customer Relationship Management Portal ----
+ ----------------------------------------------
+ Developed a scalable and flexible portal for customers to manage portfolio-related activities and schedule sessions with Relationship Managers (RMs) 
+ based on customer availability and requests, utilizing a microservices architecture.
+ 
+ Key Responsibilities:
+ ---------------------
+ Backend Development: Designed and implemented microservices using Spring Boot to handle distinct functionalities such as customer management, 
+ session scheduling, and portfolio activities
+ Frontend Development : Created a responsive and intuitive user interface using Angular and Angular Material.
+ Database Management: Utilized MySQL for efficient data storage and retrieval, ensuring data integrity and security
+ API Testing and Documentation : Postman  for API testing to ensure reliability and performance. Used Swagger for API documentation to facilitate easy understanding and usage of APIs
+ Code Quality and Performance : Integrated Sonar Lint to maintain high code quality standards and optimize performance.
+ Unit Testing : Conducted thorough unit testing using JUNIT5 to ensure robustness and error-free code
+ 
+ Challenges faced :
+ ------------------
+  Changing Requirements : Mid-project requirement changes can disrupt development progress, lead to refactoring of code, and impact project timelines
+  Collaboration and Communication : Lack of clear communication can result in misaligned expectations, leading to delays or mistakes
+  Time Management and Deadlines :
+  Cross-Team Dependencies : Sometimes the backend work relies on the frontend or DevOps teams, and delays from one team can slow down overall progress
+  
+PROJECT RELATED   
+
+1 . DESCRIBE THE OVERALL ARCHITECTURE OF YOUR PROJECT.
+My project follows a microservices architecture, where each service is designed to handle specific functionality. The backend is built using Spring Boot,
+ exposing RESTful APIs that the Angular frontend consumes. For database management, we use MySQL, and we handle session management as well as portfolio-related activities
+ for the customer. The frontend is built with Angular and Angular Material to provide a responsive and dynamic user experience.
+ 
+2. WHY DID YOU CHOOSE A MICROSERVICES ARCHITECTURE?
+Microservices architecture provides better scalability and flexibility compared to monolithic architectures. Since the project involves multiple functionalities like
+ session management, customer interaction, and portfolio activities, separating them into individual services ensures that they can be developed, deployed, and scaled independently.
+ Additionally, it improves fault isolation and simplifies the integration of new features
+
+3.HOW DOES SESSION MANAGEMENT WORK IN YOUR PROJECT?
+The Relationship Manager (RM) can create, edit, and manage customer sessions based on the customer’s availability and requests. Sessions are archived automatically
+ if the last update is older than 10 days. We handle this logic at the service layer, where each session has a status, and archived sessions are filtered out from active 
+ sessions using database queries.
+ 
+4.HOW DO YOU ENSURE SCALABILITY AND PERFORMANCE IN YOUR APPLICATION?
+Scalability is ensured through the use of microservices and stateless RESTful APIs. For performance, we implemented caching at the service level to avoid frequent database hits,
+ and we optimized database queries by indexing frequently accessed columns. Additionally, we used pagination for large data sets to prevent loading too much data at once.
+ 
+5.HOW DID YOU HANDLE RESTFUL APIS IN YOUR PROJECT?
+The backend exposes RESTful APIs using Spring Boot. Each service has clearly defined endpoints to manage sessions, customers, and portfolios.
+ We followed REST conventions such as using proper HTTP methods (GET for retrieving data, POST for creating, PUT for updating, DELETE for deleting) 
+ and handled status codes to ensure the client could easily understand the response.
+ 
+6.HOW DID YOU HANDLE EXCEPTION HANDLING AND VALIDATION IN YOUR SPRING BOOT APPLICATION?
+I used Spring Boot’s @ControllerAdvice and @ExceptionHandler for centralized exception handling, which allowed me to handle errors in a clean and reusable way.
+ For validation, I used Hibernate Validator annotations such as @NotNull, @Size, and @Pattern to ensure incoming data met the required constraints. Custom validations 
+ were created where necessary.
+ 
+7. CAN YOU EXPLAIN HOW YOU SECURED THE APIS?
+I used Spring Security with JWT for authentication and authorization. The user logs in with their credentials, receives a JWT token, and passes it in the Authorization header
+ for subsequent requests. The backend verifies the token for each request, ensuring that only authenticated users can access protected resources.
+ 
+8. WHAT CHALLENGES DID YOU FACE WITH DATABASE INTEGRATION (MYSQL) AND HOW DID YOU OPTIMIZE IT?
+One challenge was handling large amounts of session data. To optimize, I used database indexing on key columns like session_id and last_updated to improve query performance. 
+We also optimized queries using JOINs and pagination techniques, ensuring that large data sets were handled efficiently.
+
+9.HOW DID YOU DESIGN THE ANGULAR COMPONENTS FOR YOUR PROJECT?
+The Angular components were designed to be modular and reusable. For example, session-related functionality is encapsulated in dedicated components,
+which communicate with services to retrieve or update data from the backend. The UI is made responsive using Angular Material, providing a consistent look and feel across devices.
+
+10.DID YOU USE ANGULAR MATERIAL?
+Yes, Angular Material was used to create responsive and visually appealing UI components. It helped speed up the development of the UI by providing ready-made components like tables, modals, and forms,
+which were easily customizable.
+
+11.HOW DID YOU MANAGE STATE IN YOUR ANGULAR APPLICATION?
+For state management, we primarily used services in Angular, where the state of sessions, customers, and portfolios is stored and managed. 
+These services interact with the backend APIs to fetch data, and the state is shared across components.
+
+12.CAN YOU EXPLAIN THE SCHEMA DESIGN FOR YOUR PROJECT’S MYSQL DATABASE?
+The database has tables for customers, sessions, and portfolios. Each session is linked to a customer via foreign keys. 
+We use proper normalization to ensure data consistency and avoid redundancy. For performance, we applied indexing on frequently queried fields like customer_id and last_updated.
+
+13.HOW DID YOU OPTIMIZE QUERIES FOR BETTER PERFORMANCE?
+We optimized queries by using indexing and ensuring that we only retrieved the necessary data using SELECT statements instead of fetching all columns.
+Additionally, I applied caching at the service layer to reduce the frequency of database access for frequently accessed data.
+
+14.HOW DID YOU IMPLEMENT UNIT AND INTEGRATION TESTING IN YOUR PROJECT?
+I used JUnit 5 for unit testing and MockMvc for testing the REST controllers. For service layer testing, I used Mockito to mock dependencies. 
+Integration tests were written to ensure that the APIs worked as expected when integrated with the database.
+
+15.DID YOU USE POSTMAN OR SWAGGER FOR API DOCUMENTATION AND TESTING?
+I used Postman extensively for testing and debugging APIs during development. Swagger was used for API documentation, 
+which made it easier for the front-end team to interact with the APIs and test different scenarios without needing direct backend involvement.
+
+16.HOW DID YOU ENSURE CODE QUALITY AND ADHERENCE TO STANDARDS?
+We used SonarLint to analyze the code for potential issues like code smells, bugs, and security vulnerabilities. 
+This tool helped us maintain clean code practices and adhere to coding standards
+
+17.WHAT WERE THE BIGGEST CHALLENGES YOU FACED DURING THE DEVELOPMENT OF THE PROJECT?
+One challenge was ensuring that the session management feature worked seamlessly across different time zones since customers and RMs were located globally.
+ We resolved this by standardizing time zones to UTC and handling time zone conversion at the UI level.
+ 
+18.HOW DID YOU HANDLE CHANGING REQUIREMENTS OR UNEXPECTED BUGS?
+We followed Agile methodologies, so we regularly revisited requirements. If any unexpected bugs occurred, we immediately added them to the sprint backlog,
+ prioritized them, and implemented fixes with proper unit tests.
+ 
+19.CAN YOU DESCRIBE A SITUATION WHERE A FEATURE DIDN’T WORK AS EXPECTED?
+There was an issue where sessions weren't being archived correctly due to a miscalculation in the last updated date. After debugging,
+ we found that the date comparison logic needed adjustment. We fixed this by using proper date handling libraries like java.time.LocalDateTime.
+ 
+20.HOW DID YOU COLLABORATE WITH OTHER DEVELOPERS OR TEAMS?
+We used Git for version control and managed feature branches using pull requests. Regular code reviews ensured quality and team collaboration. For communication,
+ we used teams and Jira to track tasks and ensure everyone was aligned.
+ 
+21.WERE YOU FOLLOWING ANY AGILE METHODOLOGIES?
+Yes, we followed Scrum. We had daily stand-ups, sprint planning meetings, and retrospectives. This helped us stay on track and adapt quickly to changes in requirements.
+
+22.HOW DID YOU DEPLOY YOUR APPLICATION?
+The application was deployed using Jenkins for CI/CD. We used Docker for containerizing our services, which made deployment consistent across different environments.
+ Automated tests were part of the pipeline to ensure that no broken code reached production.
+ 
+23.How did you handle environment-specific configurations?
+We used Spring profiles to handle environment-specific configurations (e.g., application-dev.properties, application-prod.properties). 
+This allowed us to configure different database connections and API URLs for each environment.
